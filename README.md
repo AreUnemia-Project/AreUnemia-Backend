@@ -1,3 +1,47 @@
+# AreUnemia App API
+This is the API for AreUnemia Application API. It's a RESTful API that provides access to the users, and medications.
+
+## Build
+- Node.js
+- Express.js
+- Bcrypt
+- JWT Token
+- @google-cloud/firestore
+
+## Installation
+
+Below is the first step consist of instructions on installing and setting up your app.
+
+Install NPM Package
+```bash
+  npm install 
+```
+Setting package.json
+```bash
+  npm init
+```
+Install Express.js 
+```bash
+  npm install express
+```
+Install Bcrypt
+```bash
+  npm install bcryptjs
+```
+Install JWT Token
+```bash
+  npm install jsonwebtoken
+```
+Install @google-cloud/firestore
+```bash
+  npm install @google-cloud/firestore
+```
+
+## Configuration 
+Create a configuration folder named "config" that contains the following:
+- secret key for bcrypt
+- service account key for access to Google Cloud
+
 ## API Endpoints
 Base URL : http://localhost:8080
 
