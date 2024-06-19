@@ -17,3 +17,4 @@ Deployment URL : https://backend-areunemia-3cv52zngvq-et.a.run.app (Using JWT To
 | /api/medication |`-` | medicationName, dosage, schedule, notes | `POST` | Add Medication |
 | /api/medication|`-`| medicationName |`DELETE` | Delete Medication  |
 | /api/medication|`-` | -   | `GET` | Get Medications List|
+| /api/medication|`-` | timeToRemove  | `PUT` | Delete the medication schedule |
